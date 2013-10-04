@@ -23,7 +23,7 @@ A working ant sample project is available with the source code (https://github.c
 
 ### Options
 
-*JavaScript*
+_JavaScript_
 
 The ant task supports the following attributes:
 <table>
