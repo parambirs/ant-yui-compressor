@@ -1,0 +1,42 @@
+<project>
+	<path id="project.classpath">
+		<fileset dir="deps">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	<taskdef resource="yuicompressor.tasks" classpathref="project.classpath"/>	
+	
+
+	<target name="clean" description="Cleans the output folder">
+		<delete includeEmptyDirs="true">
+    			<fileset dir="output" includes="**/*"/>
+  		</delete>
+	</target>
+
+	<target name="copy" depends="clean" description="Copies source files to output folder">
+		<mkdir dir="output" />
+		<copy todir="output">
+			<fileset dir="webapp" />
+		</copy>
+	</target>
+
+	<target name="compress" depends="copy" description="Compress JS files using YUI Compressor">
+
+		<!-- Compress JS files using YUI Compressor -->
+		<ant-yui-compressor todir="output/js" deleteOriginal="true">
+			<fileset dir="output/js">
+				<include name="*.js"/>
+			</fileset>		
+			<mapper type="glob" from="*.js" to="*-min.js"/>
+		</ant-yui-compressor>
+		
+		<!-- Compress CSS files using YUI Compressor -->
+		<ant-yui-compressor todir="output/css" deleteOriginal="true">
+			<fileset dir="output/css">
+				<include name="*.css"/>
+			</fileset>
+			<mapper type="glob" from="*.css" to="*-min.css"/>
+		</ant-yui-compressor>
+	</target>
+</project>
