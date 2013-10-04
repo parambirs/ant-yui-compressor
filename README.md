@@ -15,7 +15,7 @@ ant-yui-compressor is an ant task for compressing multiple JavaScript and CSS fi
 	<mapper type="glob" from="*.js" to="*-min.js"/>
 </ant-yui-compressor>
 ```
-Note: The 'toDir' attribute, as well as <fileset> & <mapper> elements are required.
+Note: The `toDir` attribute, as well as `fileset` & `mapper` elements are required.
 
 ### Example
 
@@ -25,7 +25,7 @@ A working ant sample project is available with the source code (https://github.c
 
 **JavaScript**
 
-The ant task supports the following attributes:
+The ant task supports the following attributes for JS files:
 <table>
     <tr>
         <th>Attribute</th>
@@ -61,5 +61,26 @@ The ant task supports the following attributes:
     	<td>verbose</td>
     	<td>No</td>
     	<td>false</td>
+    </tr>
+</table>
+
+**CSS**
+
+There are only a couple of options available for CSS files:
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Required?</th>
+        <th>Default</th>
+    </tr>
+    <tr>
+    	<td>toDir</td>
+    	<td>Yes</td>
+    	<td>N/A</td>
+    </tr>
+    <tr>
+        <td>linebreak</td>
+        <td>No</td>
+        <td>-1</td>
     </tr>
 </table>
