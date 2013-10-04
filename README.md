@@ -23,7 +23,7 @@ A working ant sample project is available with the source code (https://github.c
 
 ### Options
 
-_JavaScript_
+**JavaScript**
 
 The ant task supports the following attributes:
 <table>
@@ -46,5 +46,20 @@ The ant task supports the following attributes:
     	<td>munge</td>
     	<td>No</td>
     	<td>true</td>
+    </tr>
+    <tr>
+    	<td>preserveAllSemiColons</td>
+    	<td>No</td>
+    	<td>false</td>
+    </tr>
+    <tr>
+    	<td>disableOptimizations</td>
+    	<td>No</td>
+    	<td>false</td>
+    </tr>
+    <tr>
+    	<td>verbose</td>
+    	<td>No</td>
+    	<td>false</td>
     </tr>
 </table>
