@@ -8,7 +8,7 @@ ant-yui-compressor is an ant task for compressing multiple JavaScript and CSS fi
 * Option to automatically delete original source files after generating minified files
 
 ### Usage
-```
+```xml
 <ant-yui-compressor todir="js" deleteOriginal="true">
 	<fileset dir="js">
     	<include name="config.js" />
