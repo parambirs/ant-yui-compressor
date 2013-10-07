@@ -48,6 +48,11 @@ The ant task supports the following attributes for JS files:
     	<td>N/A</td>
     </tr>
     <tr>
+        <td>deleteOriginal</td>
+        <td>No</td>
+        <td>false</td>
+    </tr>
+    <tr>
         <td>linebreak</td>
         <td>No</td>
         <td>-1</td>
