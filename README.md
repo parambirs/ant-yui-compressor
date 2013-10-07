@@ -81,7 +81,7 @@ The ant task supports the following attributes for JS files:
 
 **CSS**
 
-There are only a couple of options available for CSS files:
+The following options are available for CSS files:
 <table>
     <tr>
         <th>Attribute</th>
@@ -92,6 +92,11 @@ There are only a couple of options available for CSS files:
     	<td>toDir</td>
     	<td>Yes</td>
     	<td>N/A</td>
+    </tr>
+    <tr>
+        <td>deleteOriginal</td>
+        <td>No</td>
+        <td>false</td>
     </tr>
     <tr>
         <td>linebreak</td>
