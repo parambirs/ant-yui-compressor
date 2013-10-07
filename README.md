@@ -104,3 +104,4 @@ The following options are available for CSS files:
         <td>-1</td>
     </tr>
 </table>
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e9e0d299aee1cee169c7f8a2361ee89e "githalytics.com")](http://githalytics.com/parambirs/ant-yui-compressor)
