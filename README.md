@@ -105,3 +105,7 @@ The following options are available for CSS files:
     </tr>
 </table>
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e9e0d299aee1cee169c7f8a2361ee89e "githalytics.com")](http://githalytics.com/parambirs/ant-yui-compressor)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/parambirs/ant-yui-compressor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
