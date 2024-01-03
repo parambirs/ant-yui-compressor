@@ -1,7 +1,7 @@
 About ant-yui-compressor
 ==================
 
-ant-yui-compressor is an [Apache Ant](http://ant.apache.org/) task for compressing multiple JavaScript and CSS files using [YUI compressor](http://developer.yahoo.com/yui/compressor/).
+ant-yui-compressor is an [Apache Ant](http://ant.apache.org/) task for compressing multiple JavaScript and CSS files using [YUI compressor](https://github.com/yui/yuicompressor).
 
 ### Features
 * JS files minification 
@@ -10,7 +10,7 @@ ant-yui-compressor is an [Apache Ant](http://ant.apache.org/) task for compressi
 
 ##### Origins
 
-This project is based on [yui-compressor-ant-task](https://code.google.com/p/yui-compressor-ant-task/) by Simon Buckle 
+This project is based on [yui-compressor-ant-task](https://github.com/sbuckle/yui-compressor-ant-task/) by Simon Buckle 
 which only supports JS minification. 
 
 ### Basic Usage
@@ -104,8 +104,3 @@ The following options are available for CSS files:
         <td>-1</td>
     </tr>
 </table>
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e9e0d299aee1cee169c7f8a2361ee89e "githalytics.com")](http://githalytics.com/parambirs/ant-yui-compressor)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/parambirs/ant-yui-compressor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
